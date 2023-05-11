@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+p {
+    text-align: justify;
+}
+
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: azure;
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: azure;
+}
+
+.navbar-toggler {
+    background-color: azure;
+}
+
+.section-title {
+    color: azure;
+    letter-spacing: 2px;
+}
+
+#cursos p {
+    color: azure;
+}
+
+#cursos img {
+    box-shadow: 1px 1px 8px rgba(240, 255, 255, 0.222);
+}
+
+#sobre,
+#galeria {
+    background-color: azure;
+}
+
+#galeria h2 {
+    margin-bottom: 30px;
+}
+
+#galeria .nav-link.active {
+    background-color:rgba(220, 20, 60, 0.5);
+    color: black;
+}
+
+#galeria button {
+    color: black;
+    font-weight: bold;
+}
+
+.text-colored {
+    color: crimson;
+}
+
+#contato label,
+#contato i,
+#contato a,
+#contato p {
+    color: azure;
+}
+
+#contato button {
+    background-color: azure;
+    color: black;
+}
+
+#contato button:hover {
+    background-color: crimson;
+    color: azure;
+}
+
+.social-links li {
+    list-style: none;
+    display:inline ;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    #galeria nav {
+        margin-bottom: 25px;
+    }
+
+    #galeria h2 {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px){
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+}
+
+
